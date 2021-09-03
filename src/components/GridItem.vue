@@ -15,8 +15,6 @@
     </div>
 </template>
 <style>
-@import url('../assets/css/ons.css');
-@import url('../assets/css/theme.css');
     .vue-grid-item {
         transition: all 200ms ease;
         transition-property: left, top, right;

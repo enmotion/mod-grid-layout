@@ -277,6 +277,8 @@
 </script>
 
 <style>
+@import url('../assets/css/ons.css');
+@import url('../assets/css/theme.css');
     /*    #app {
             font-family: 'Avenir', Helvetica, Arial, sans-serif;
             -webkit-font-smoothing: antialiased;
