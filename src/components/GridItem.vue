@@ -5,10 +5,14 @@
          :style="style">
         <slot></slot>
         <span v-if="resizableAndNotStatic" ref="handle" class="vue-resizable-handle">
-            <div class="h20 bc-s" style="width:20px"></div>
+            <slot name="resize">
+                <div class="h20 bc-s" style="width:20px"></div>
+            </slot>
         </span>
-        <span v-if="removableAndNotStatic" ref="handle" class="vue-removeable-handle">
-            <div class="h20 iconfont fs12 tc-g3 icon-x xpcc xcol" style="width:20px;text-shadow:0px 0px 2px #FFF;"></div>
+        <span v-if="removableAndNotStatic" @click="handleRemove" ref="handle" class="vue-removeable-handle">
+            <slot name="remove">
+                <div class="h20 iconfont fs12 tc-g3 icon-x xpcc xcol" style="width:20px;text-shadow:0px 0px 2px #FFF;"></div>
+            </slot>
         </span>      
     </div>
 </template>
@@ -489,6 +493,9 @@
                     styleProps[prop] = matches[1];
                 }
                 this.$emit("container-resized", this.i, this.h, this.w, styleProps.height, styleProps.width);
+            },
+            handleRemove: function(event){
+                this.$emit("removed", this.i);
             },
             handleResize: function (event) {
                 if (this.static) return;

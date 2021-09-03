@@ -1,6 +1,6 @@
 <template>
     <div>
-        <span class="text bc-g2">
+        <span class="text">
             {{text}}
         </span>
         <!-- <span class="remove" @click="$emit('removeItem', text)">x</span> -->
