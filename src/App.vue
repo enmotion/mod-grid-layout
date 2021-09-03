@@ -77,7 +77,7 @@
                            @container-resized="containerResized"
                            @moved="moved">
                     <template v-slot:remove>
-                        <div class="h20 bc-ab1 bdr2 iconfont icon-x tc-wht xpcc mg2 fs12" style="width:20px"></div>
+                        <div class="h20 bc-ab1 bdr2 iconfont icon-x tc-wht xpcc mg2 fs12" style="width:20px;height:20px;background:#F00"></div>
                     </template>
                     <!-- <template v-slot:resize>
                         <div class="h20 bc-ab1 bdr2 iconfont icon-resize tc-wht xpcc mg2" style="width:20px;height:20px:background:#FF0000"></div>

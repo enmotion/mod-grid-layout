@@ -10,7 +10,7 @@ const banner = PACKAGE.name + ' - ' + PACKAGE.version + ' | ' +
 module.exports = {
     configureWebpack: {
         output: {
-            library: "VueGridLayout",
+            library: "ModGridLayout",
             libraryExport: 'default'
         },
         plugins: [
