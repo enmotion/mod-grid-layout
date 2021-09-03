@@ -29,9 +29,6 @@
     -webkit-columns: 120px;
     columns: 120px;
 }
-
-
-
 .vue-resizable-handle {
     z-index: 5000;
     position: absolute;
