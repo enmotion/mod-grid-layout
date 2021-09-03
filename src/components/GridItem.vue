@@ -4,17 +4,19 @@
          :class="classObj"
          :style="style">
         <slot></slot>
-        <span v-if="resizableAndNotStatic" ref="handle" class="vue-resizable-handle">
+        <span v-show="resizableAndNotStatic" ref="handle" class="vue-resizable-handle">
             <slot name="resize">
                 <div class="iconResize" style="width:15px;height:15px"></div>
             </slot>
         </span>
-        <span v-if="removableAndNotStatic" @click="handleRemove" ref="handle" class="vue-removeable-handle">
+        <span v-show="removableAndNotStatic" @click="handleRemove" ref="handle2" class="vue-removeable-handle">
             <slot name="remove"></slot>
         </span>      
     </div>
 </template>
 <style>
+@import url('../assets/css/ons.css');
+@import url('../assets/css/theme.css');
     .vue-grid-item {
         transition: all 200ms ease;
         transition-property: left, top, right;
@@ -409,7 +411,7 @@
                 return this.resizable && !this.static;
             },
             removableAndNotStatic(){
-                return this.isRemoveable && !this.static;
+                return this.isRemoveable && !this.static && this.draggableOrResizableAndNotStatic;
             },
             draggableOrResizableAndNotStatic(){
                 return (this.draggable || this.resizable) && !this.static;
