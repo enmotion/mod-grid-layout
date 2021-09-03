@@ -32,6 +32,7 @@ vue-grid-layout is a grid layout system, like [Gridster](http://dsmorse.github.i
 * Layout can be serialized and restored
 * Automatic RTL support (resizing not working with RTL on 2.2.0)
 * Responsive
+* mod version add delete icon slot
 
 ## **Current version:** 2.3.12 (Supports Vue 2.2+)
 
