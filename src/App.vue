@@ -79,9 +79,9 @@
                     <template v-slot:remove>
                         <div class="h20 bc-ab1 bdr2 iconfont icon-x tc-wht xpcc mg2 fs12" style="width:20px"></div>
                     </template>
-                    <template v-slot:resize>
+                    <!-- <template v-slot:resize>
                         <div class="h20 bc-ab1 bdr2 iconfont icon-resize tc-wht xpcc mg2" style="width:20px;height:20px:background:#FF0000"></div>
-                    </template>
+                    </template> -->
                     <!--<custom-drag-element :text="item.i"></custom-drag-element>-->
                     <test-element :text="item.i" @removeItem="removeItem($event)"></test-element>
                     <!--<button @click="clicked">CLICK ME!</button>-->
@@ -277,8 +277,8 @@
 </script>
 
 <style>
-@import url('../assets/css/ons.css');
-@import url('../assets/css/theme.css');
+/* @import url('./assets/css/ons.css');
+@import url('./assets/css/theme.css'); */
     /*    #app {
             font-family: 'Avenir', Helvetica, Arial, sans-serif;
             -webkit-font-smoothing: antialiased;
