@@ -1,0 +1,68 @@
+@import url("//at.alicdn.com/t/font_462731_kgnuytbu1vh.css");
+body,html{
+    font-family:"微软雅黑","SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",'sans-serif';font-size:62.5%;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+.mgb-5{margin-bottom:-5px;}
+.bdc-d,.bdc-d::after{border-color:#F25C78!important;}
+.bdc-w,.bdc-w::after{border-color:#FF9C00!important;}
+.bdc-i,.bdc-i::after{border-color:#0F6CA6!important;}
+.bdc-s,.bdc-s::after{border-color:#76C537!important;}
+.bdc-p,.bdc-p::after{border-color:#055BA6!important;}
+.bdc-m,.bdc-m::after{border-color:#191721!important;}
+.bdc-g,.bdc-g::after{border-color:#f4faff!important;}
+.tc-d{color:#F25C78!important;}
+.tc-w{color:#FF9C00!important;}
+.tc-i{color:#0F6CA6!important;}
+.tc-s{color:#76C537!important;}
+.tc-p{color:#055BA6!important;}
+.tc-m{color:#191721!important;}
+.bc-d{background-color:#F25C78!important;}
+.bc-w{background-color:#FF9C00!important;}
+.bc-i{background-color:#0F6CA6!important;}
+.bc-s{background-color:#76C537!important;}
+.bc-p{background-color:#055BA6!important;}
+.bc-m{background-color:#191721!important;}
+.bc-g{background-color:#f4faff!important;}
+*{touch-action:pan-y;}
+a[title="到腾讯地图查看此区域"] 
+img{display:none;}
+div[draggable=false]{display:none;}
+.mce-tinymce{display:flex;flex-direction:column;flex-grow:1 !important;}
+.el-popover{min-width:50px !important;width:auto !important;padding:10px !important;margin-top:5px !important}
+.bc-g-b{background:-webkit-gradient(linear,0 -200,100% 100%,from(#0672C5),to(#1A3B6C));}
+div#driver-popover-item .driver-popover-tip.top{top:0px !important;border-color:transparent transparent #fff;}
+.el-table__expanded-cell[class*=cell]{padding:0px !important;}.op-09{opacity:0.9;}
+.op-08{opacity:0.8;}
+.op-07{opacity:0.7;}
+.op-06{opacity:0.6;}
+.op-05{opacity:0.5;}
+.op-04{opacity:0.4;}
+.op-03{opacity:0.3;}
+.op-02{opacity:0.2;}
+.op-01{opacity:0.1;}
+.sidemenu .el-drawer__header{display:none;}
+.is50{font-size:50px;}
+.is40{font-size:40px;}
+.el-tabs__header{padding:0;position:relative;margin:0 0 10px;}.box30{width:30px;height:30px;}
+.w120{width:120px;}
+/* #app{background-color:black;height:100%;width:100%;max-width:100%;transform-style:preserve-3d;overflow-x:hidden;display:flex;flex-direction:column;} */
+
+.aq-e-ui .el-form-item {
+    margin-bottom: 0px !important;
+}
+.aq-e-ui .el-form-item__content {
+    line-height:normal !important;
+    position: relative;
+    font-size: 14px;
+}
+.aq-e-ui .el-upload-dragger{
+    background: none !important;
+}
+
+.aq-e-ui .el-input-number--small {
+    width: auto;
+}
+.aq-e-ui .el-input-number {
+    width: auto;
+}

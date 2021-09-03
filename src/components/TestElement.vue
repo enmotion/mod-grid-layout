@@ -1,9 +1,9 @@
 <template>
     <div>
-        <span class="text">
+        <span class="text bc-g2">
             {{text}}
         </span>
-        <span class="remove" @click="$emit('removeItem', text)">x</span>
+        <!-- <span class="remove" @click="$emit('removeItem', text)">x</span> -->
     </div>
 </template>
 <style>
