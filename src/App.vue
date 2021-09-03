@@ -75,12 +75,12 @@
                            @resized="resized"
                            @container-resized="containerResized"
                            @moved="moved">
-                    <template v-slot:remove>
-                        <div class="h20 bc-d bdr2 iconfont icon-x tc-wht xpcc mg2" style="width:20px"></div>
-                    </template>
-                    <template v-slot:resize>
+                    <!-- <template v-slot:remove>
+                        <div class="h20 bc-d bdr2 iconfont icon-x tc-wht xpcc mg2 fs10" style="width:20px"></div>
+                    </template> -->
+                    <!-- <template v-slot:resize>
                         <div class="h20 bc-aw2 bdr2 iconfont icon-x xpcc mg2" style="width:20px"></div>
-                    </template>
+                    </template> -->
                     <!--<custom-drag-element :text="item.i"></custom-drag-element>-->
                     <test-element :text="item.i" @removeItem="removeItem($event)"></test-element>
                     <!--<button @click="clicked">CLICK ME!</button>-->
